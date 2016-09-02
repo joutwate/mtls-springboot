@@ -106,7 +106,8 @@ certificate during a request
 4. The password for the keystores is **changeme**
 
 **Things to try**
+
 1. Attempt to access the server's endpoint via a browser https://localhost:8111/server/ (**the trailing / is necessary**)
-1. Remove the server public cert from the client's keystore and re-run.
-2. Remove the client public cert from the server's keystore and re-run (**make sure to restore the server's public cert 
+2. Remove the server public cert from the client's keystore and re-run.
+3. Remove the client public cert from the server's keystore and re-run (**make sure to restore the server's public cert 
 first if you did #2**).
