@@ -4,12 +4,12 @@ Example of Mutual Client Authorization in SpringBoot
 
 Generate keystores and run server app followed by client test case.
 ```
-cd mtls-example/bin
+cd mtls-springboot/bin
 sh -x ./gen-non-prod-key.sh
 cd ../server
 mvn spring-boot:run
 # In another shell
-cd mtls-example/client
+cd mtls-springboot/client
 mvn test
 ```
 
