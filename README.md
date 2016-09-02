@@ -1,4 +1,4 @@
-Example of Mutual Client Authorization in SpringBoot written by Joshua Outwater
+Example of Mutual Client Authorization in SpringBoot
 
 **Quickstart**
 
@@ -39,7 +39,7 @@ certificates. The full code for this can be seen in `ClientApplication.java`.
 
 
 The second step, server validating the client, happens when the server validates the client's public certificate during
-the TLSv1.2 Handshake.
+the TLSv1.2 Handshake (turn debugging on so you can see the following messages `-Djavax.net.debug=all`).
 
 The client will send its public certificate
 ```
