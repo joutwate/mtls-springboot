@@ -1,5 +1,7 @@
 Example of Mutual Client Authorization in SpringBoot
 
+(Check out what I've been up to lately at https://99milestoempty.com/)
+
 **Quickstart**
 
 Generate keystores and run server app followed by client test case.
